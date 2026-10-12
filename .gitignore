@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and OS
+.DS_Store
+Thumbs.db
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large model checkpoints and data artifacts
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+logs/
+*.log
+
+# Raw datasets (keep code only)
+data/raw/
+/data/SisFall/
+/data/KFall/
